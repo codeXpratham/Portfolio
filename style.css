@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&family=Playfair+Display&family=Prompt:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar{
+    background-color: rgb(212, 203, 203);
+    /* width: 250px; */
+    font-family: 'Kanit', sans-serif;
+    height: inherit;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding : 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li a:hover{
+
+    color: white;
+}
+.main{
+    /* background-color: rgb(221, 255, 0); */
+    width: 86vw;
+    padding: 20px
+}
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(108, 108, 235); */
+    height: 78vh;
+    /* height: 57vh; */
+    width: 80vw;
+    margin: 65px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.devinfo{
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+}
+
+.hello{
+    font-size: 2.5em;
+}
+.name{
+    font-size: 3.5em;
+    font-weight: bold;
+}
+.about{
+    font-size: 50px;
+}
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+}
+.image1{
+    width: 350px;
+  height: auto;
+  padding: 15px;
+}
+.buttons{
+    /* justify-content: space-around; */
+    font-size: 16px;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: grey;
+    font-weight: bold;
+    font-size: 1.0em;
+    margin: 11px 50px 0px 51px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 12px;
+    padding: 7px 26px;
+    margin: 10px 29px 3px 0px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(211, 182, 182);
+}
+
+.divPick img{
+    height: 78vh;
+}
+
+
+/* contact form */
+/* .contactform{
+    font-family: 'Kanit', sans-serif;
+    padding: 50px 50px;
+    font-size: 25px;
+ 
+    margin: 10px 88px;
+} */
+
+.contactform {
+    font-family: 'Kanit', sans-serif;
+    padding: 20px 10px;
+    font-size: 25px;
+    /* text-align: center; */
+    margin: 10px 10px;
+}
+
+
+.contactform h1{
+    text-align: left;
+    /* padding: 20px 0px 20px 0px; */
+}
+.contactform form div{
+    padding: 4px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form{
+    margin: 0 80px;
+}
+.contactform form div input{
+    /* width: 16vw;   */
+    margin: 3px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 9px;
+    color: rgb(89, 85, 85);
+    margin: 0px 10px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 14.5px;
+    margin: 3px 8px 0px 0px;
+}
+
+.blogitem{
+    margin: 12px;
+}
+
+.blogitem h2{
+    font-family: 'Kanit', sans-serif;
+}
+.blogitem p{
+    font-family: 'Kanit', sans-serif;
+}
+
+.blogcontainer{
+    margin: 10px 88px;
+}
+
+.intro{
+    margin: 10px 88px;
+}
+.blogcontainer h1{
+    font-family: 'Kanit', sans-serif;
+    margin: 10px 20px;
+}
+
+.intro h2{
+    font-family: 'Kanit', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Kanit', sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skill{
+    background-color:green;
+    width: 560px;
+    height: 10px;
+    margin: 0px 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.t10{
+    width: 300px;
+    background-color:  green;
+}
+.t5{
+    width: 300px;
+    background-color:  rgb(73, 73, 248);
+}
+.t3{
+    width: 300px;
+    background-color:  rgb(244, 241, 61);
+}
+
+.sidebarGo{
+    transform: translate(-246px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 154px;
+}
+
+@media only screen and (max-width: 1438px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    /* .sidebar{
+        transform: translate(-246px, 0px);
+        position: absolute;
+    } */
+    /* .imgg{
+       display: none;
+    } */
+    .buttons{
+        font-size: 6px;
+    }
+    .devinfo{
+        font-size: 12px;
+    }
+    .intro , .blogcontainer .contactform{
+        margin-top: 50px 8px;
+    }
+  }
