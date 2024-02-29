@@ -5,6 +5,24 @@
     padding: 0;
     margin: 0;
 }
+
+.btnn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  padding: 10px;
+  }
+  .btnn-linkedin:link, .btnn-linkedin:visited {
+    color: #fff;
+  }
+  .btnn-linkedin:active, .btnn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }
+
 .sidebar{
     background-color: rgb(212, 203, 203);
     /* width: 250px; */
@@ -43,19 +61,25 @@
     /* background-color: rgb(108, 108, 235); */
     height: 78vh;
     /* height: 57vh; */
-    width: 80vw;
+    width: 70vw;
+
     margin: 65px auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+
+.imgg{
+    /* width: 30vw; */
 }
 
 .devinfo{
     display: flex;
-    font-size: 16px;
+    font-size: 15px;
     justify-content: center;
     flex-direction: column;
     font-family: 'Kanit', sans-serif;
+    width: 80vw;
 }
 
 .hello{
@@ -69,8 +93,9 @@
     font-size: 50px;
 }
 .moreabout{
-    font-size: 2em;
-    margin-top: 23px;
+    font-size: 1.32em;
+    /* container-type: inline-size; */
+    /* container-name: sidebar; */
 }
 .image1{
     width: 350px;
@@ -174,6 +199,7 @@
 
 .intro{
     margin: 10px 88px;
+    font-family: 'Kanit', sans-serif;
 }
 .blogcontainer h1{
     font-family: 'Kanit', sans-serif;
@@ -184,7 +210,7 @@
     font-family: 'Kanit', sans-serif;
     margin: 12px;
 }
-.intro p{
+.intro p , h3{
     font-family: 'Kanit', sans-serif;
     margin: 12px;
 }
@@ -235,6 +261,8 @@
 }
 
 @media only screen and (max-width: 1438px) {
+    
+    
     /* body {
       background-color: lightblue;
     } */
@@ -245,13 +273,38 @@
     /* .imgg{
        display: none;
     } */
+
+    
+
     .buttons{
         font-size: 6px;
     }
-    .devinfo{
-        font-size: 12px;
+    .devinfo {
+        font-size: 9px;
+        padding: 19px;
+        margin-top: 308px;
+        margin-right: 115px;
     }
+
     .intro , .blogcontainer .contactform{
         margin-top: 50px 8px;
     }
+    .infoContainer{
+        /* background-color: rgb(108, 108, 235); */
+        height: 78vh;
+        /* height: 57vh; */
+        width: 70vw;
+        margin: 65px auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+    }
+        .devinfo {
+        font-size: 9px;
+        padding: 19px;
+        margin-top: 476px;
+        margin-right: 11px;
+  }
   }
